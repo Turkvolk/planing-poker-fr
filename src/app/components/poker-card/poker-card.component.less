@@ -1,0 +1,73 @@
+@import "../../../styles/colors.less";
+
+.container_top {
+  position: relative;
+  margin-top: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_middle {
+  display: flex;
+  justify-content: center;
+}
+
+.container_bottom {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.table_top {
+  display: flex;
+}
+
+.table_bottom {
+  display: flex;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  background-color: @medium-blue;
+  border-radius: 7px;
+  width: 500px;
+  height: 200px;
+  margin: 12px;
+}
+
+button {
+  position: relative;
+  background-color: #2895e8;
+  color: white;
+  border-style: unset;
+  border-radius: 7px;
+  border-color: @line-grey;
+  width: 40%;
+  height: 20%;
+  top: 40%;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0 5px 0 @blue inset, 0 0 5px 4px @blue;
+  }
+}
+
+.card {
+  width: 70px;
+  height: 100px;
+  margin: 12px 25px;
+}
+
+.front {
+  border-style: solid;
+  border-radius: 6px;
+}
+
+.back {
+  background: @dark-blue;
+  border: 3px solid @dark-blue;
+  border-radius: 6px;
+  transform: rotateY(-180deg);
+}
